@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="logo">
+        <img src="https://preview.vwthemesdemo.com/ecommerce-watch-store-pro/wp-content/themes/ecommerce-watch-store-pro/assets/images/Logo.png" 
+        alt="logo">
+      </div>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+         <div class="menu">
+           <a href="http://">Home</a>
+           <a href="http://">Shop</a>
+           <a href="http://">About Us</a>
+           <a href="http://">Contact Us</a>
+        </div>
+      </div>
+    </nav>
+  </body>
+
+  <script>
+    function toggleMenu(){
+      document.querySelector('.nav-bar').classList.toggle('active')
+    }
+
+  
+  </script>
+</html>
