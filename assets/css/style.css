@@ -626,7 +626,7 @@ li {
     padding-left: 1%;
     padding-right: 10.4%;
     padding-top: 60px;
-    padding-bottom: 200px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
   }
@@ -737,6 +737,10 @@ li {
   }
   .review_element img {
     max-width: 30%;
+  }
+
+  .review .wrapper {
+    padding-bottom: 20px;
   }
 
   .footer {
