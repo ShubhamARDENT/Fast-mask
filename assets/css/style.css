@@ -596,7 +596,6 @@ li {
 }
 
 .review_element {
-  margin-bottom: -150px;
   display: flex;
   column-gap: 10px;
 }
