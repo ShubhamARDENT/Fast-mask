@@ -620,6 +620,7 @@ li {
     right: 100px;
     left: 0;
   }
+
   .review .wrapper {
     max-width: 100%;
     padding-left: 1%;
@@ -677,7 +678,7 @@ li {
   }
 
   .review_element img {
-    max-width: 50%;
+    max-width: 30%;
   }
 
   .review_element p {
