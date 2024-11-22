@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+  font-size: larger;
+}
+
+.banner {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.banner_img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 60vh;
+  position: relative;
+  filter: brightness(50%);
+}
+
+.banner_container {
+  text-align: center;
+  position: absolute;
+  top: 110px;
+  left: 100px;
+  right: 50px;
+}
+
+.banner_container p:nth-child(1) {
+  font-size: 5rem;
+  color: white;
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.banner_container p:nth-child(2) {
+  margin-top: -50px;
+  color: white;
+  font-family: "lato", sans-serif;
+  font-weight: 600;
+}
+
+#banner_btn {
+  padding: 10px 50px;
+  background-color: transparent;
+  border: 2px red solid;
+  color: white;
+}
+
+#banner_btn:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+#banner_end {
+  background-color: red;
+  margin-top: -5px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "lato", sans-serif;
+  font-weight: 800;
+  font-size: larger;
+}
+
+.mask_grid {
+  display: grid;
+  list-style-type: none;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  column-gap: 10px;
+  justify-content: center;
+}
+
+.mask > img {
+  width: 100%;
+  object-fit: cover;
+  height: 60%;
+}
+
+.mask {
+  border: 1px solid gray;
+}
+
+.mask_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.mask_details > h5 {
+  font-family: "lato", sans-serif;
+  font-weight: 900;
+  font-size: small;
+  margin-top: -10px;
+}
+
+.mask_details p {
+  font-family: "lato", sans-serif;
+  font-weight: 900;
+  color: gray;
+  font-size: small;
+  margin-top: -10px;
+}
+
+.mask_details > button {
+  background-color: black;
+  color: white;
+  padding: 10px 5px;
+  border: none;
+}
+
+.mask_details > button:hover {
+  background-color: white;
+  color: black;
+  padding: 10px 5px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.mask_grid .mask:first-child .mask_details p {
+  margin-top: 10px;
+}
+
+.mask_grid .mask:first-child .mask_details button {
+  margin-top: -3px;
+}
+
+#facecard_btn {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+#facecard_btn > button {
+  background-color: white;
+  padding: 10px 35px;
+  border: 2px solid red;
+  font-size: large;
+  font-family: "lato", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#facecard_btn > button:hover {
+  background-color: red;
+  padding: 5px 35px;
+  border: 2px solid red;
+  color: black;
+  cursor: pointer;
+}
+
+.multipurpose {
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-weight: 600;
+}
+
+.multipurpose > h3 {
+  margin-bottom: 0;
+  font-size: 4rem;
+  font-family: "lato", sans-serif;
+}
+
+.multipurpose_masks {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+  column-gap: 10px;
+  justify-content: center;
+}
+
+.multipurpose_type {
+  border: 2px solid black;
+  font-size: small;
+}
+
+.multipurpose_type > img {
+  width: 70%;
+  margin-top: 5px;
+}
+
+#multipurpose_btn {
+  background-color: red;
+  padding: 10px 40px;
+  border: none;
+  color: white;
+  font-family: "lato", sans-serif;
+  font-size: large;
+}
+
+#multipurpose_btn:hover {
+  background-color: white;
+  padding: 10px 40px;
+  border: 2px solid red;
+  color: black;
+  cursor: pointer;
+}
+
+.details {
+  background-color: black;
+  height: 350px;
+  color: white;
+  display: grid;
+  grid-template-columns: 500px 500px;
+  margin-top: 10px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.details > h3 {
+  font-size: 4rem;
+  font-family: "lato", sans-serif;
+}
+
+.details_list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "lato", sans-serif;
+}
+
+.details_list li {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.details_list li::after {
+  position: absolute;
+  content: " ";
+  height: 2px;
+  background-color: red;
+  right: 170px;
+  left: 0;
+  bottom: 0;
+}
+
+.review {
+  margin-left: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: safe;
+}
+
+.review_header {
+  font-size: 4rem;
+  font-family: "lato", sans-serif;
+  font-weight: 900;
+}
+
+.review_list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 150px 165px 180px;
+  row-gap: 15px;
+  column-gap: 15px;
+  margin-left: -30px;
+  margin-top: -55px;
+  font-family: "lato", sans-serif;
+  font-size: smaller;
+  font-weight: 700;
+}
+
+.review_list .author {
+  display: block;
+}
+
+.review_list > li {
+  border: 2px solid red;
+  padding: 15px;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.review_list2 {
+  display: grid;
+  margin-left: -30px;
+  margin-top: 5px;
+  grid-template-columns: 200px 170px 150px;
+  grid-template-rows: 70px;
+  font-family: "lato", sans-serif;
+  font-size: small;
+  font-weight: 700;
+  column-gap: 10px;
+}
+
+.review_list2 > li {
+  border: 2px solid red;
+  list-style-type: none;
+  line-height: 1.5;
+  padding: 15px 15px;
+}
+
+.review_list2 > li:nth-child(3) {
+  font-size: large;
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.review_list2 > li:nth-child(3):hover {
+  font-size: large;
+  background-color: white;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+}
+
+.review_list2 .author {
+  font-style: italic;
+}
+
+.review_element {
+  display: grid;
+  grid-template-columns: 300px 200px 200px;
+  column-gap: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.review_element > p {
+  font-family: "lato", sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.footer-container {
+  position: relative;
+  margin: 0;
+}
+.banner_container3 {
+  position: absolute;
+  font-family: "lato", sans-serif;
+  top: 10%;
+  left: 30%;
+  color: white;
+  text-align: center;
+}
+
+.banner_container3 > h2 {
+  font-size: 4rem;
+}
